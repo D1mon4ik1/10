@@ -253,6 +253,18 @@ body{
     text-shadow: 7px 3px 10px yellow;
     color: blue;
 }
+.regis{
+    font-size: 5vh;
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+}
+.regis1{
+    font-size: 5vh;
+    position: absolute;
+    top: 9vh;
+    left: 3vw;
+}
 .item2{
     background-color: #6e7d81;
     border: 1px solid lightgray;

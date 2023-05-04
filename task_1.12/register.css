@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #41a3f4;
+    display: block;
+    border-bottom: 2px solid #606060;
+    box-shadow: 0 1px 0 red;
+    font-family: Calibri, serif;
+    width: 100%;
+    height: 9vh;
+}
+.name {
+    display: block;
+    margin-left: 2vw;
+    float: left;
+}
+.main_name{
+    font-size: 4.3vh;
+}
+.my_name{
+    font-size: 2.5vh;
+    color: white;
+    margin-left: 2vw;
+}
+.menu{
+    display: flex;
+    font-size: 2.5vh;
+    float: right;
+    font-weight: 600;
+    margin-top: 2.8vh;
+}
+.login{
+    padding: 2.8vh 1vw 3.2vh 1vw;
+}
+.login:hover, .register:hover{
+    background-color: #2791f3;
+    box-shadow: 0 0 2px black;
+}
+.register{
+    padding: 2.8vh 1.5vw 3.2vh 1vw;
+}
+.silca{
+    text-decoration: none;
+    color: black;
+}
+
+.form{
+    display: block;
+    margin: 4vh auto auto auto;
+    width: 25vw;
+    height: 73vh;
+    border: 2px solid #9f9f9f;
+    font-family: Arial, serif;
+}
+.name_form{
+    background-color: #41a3f4;
+    text-align: center;
+    padding-top: 1.5vh;
+    height: 4.5vh;
+    width: auto;
+}
+.main_name_form{
+    font-size: 2.7vh;
+    color: white;
+}
+.main_form{
+    font-size: 2vh;
+    margin: 2vh 2vw ;
+    color: #595959;
+}
+.nazva{
+    margin: 0.5vh 0 2vh 0;
+    height: 3.5vh;
+    width: 90%;
+    padding: 0.3vh 1vw;
+}
+.gruops{
+    font-size: 2.2vh;
+    color: #494949;
+}
+.celekt{
+    width: 100%;
+    height: 4.5vh;
+}
+.opti{
+    font-size: 2vh;
+}
+.nazva:focus{
+    border: 2px solid #41a3f4;
+    outline: none;
+}
+.knopra{
+    float: right;
+    font-size: 2vh;
+    margin-top: 2vh;
+    padding: 0.5vh 1vw;
+}
+
+footer{
+    background-color: #263137;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6vh;
+    text-align: center;
+}
+.prava{
+    color: #a9a9a9;
+    margin-top: 2.5vh;
+}
